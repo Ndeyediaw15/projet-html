@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+    max-width: 1600px;
+    scroll-behavior: smooth;
+}
+.banier{
+    background-image: url(image/m1-0.avif);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+
+}
+.box{
+    background-color: #000;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+h1{
+    color: #fff;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul a{
+    text-decoration: none;  
+    font-size: 22px; 
+    margin: 10px;
+    color: #fff;
+}
+ul a:hover{
+    color: orangered;
+    background: #fff;
+}
+span{
+    color: orangered;
+}
+.main{
+    text-align: center;
+    width: 80%;
+    color: #fff;
+    margin-top: 10%;
+    background-color: rgb(0, 0, 0.596) ;
+    border-radius: 15px;
+    height: 400px;
+    width: 800px;
+    padding-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main h2{
+    color: orange;
+}
+.main p{
+    line-height: 23px;
+    width: 650px;
+    font-size: 17px;
+    padding-top: 20px;
+
+}
+button{
+    margin-top: 25px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: orange;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+
+}
+button:hover{
+    background:orangered;
+}
+.groupe{
+    height: 100vh;
+    width: 100%;
+    background: black;
+}
+.docx h1{
+   padding-left: 60px;
+   margin-bottom: 10px;
+   color: #fff;
+
+}
+.docx p{
+    display: flex;
+    padding-left: 40px;
+    color: #fff;
+}
+.docx img{
+    height: 400px;
+    width: 600px;
+    position: relative;
+    margin-left: 600px;
+    margin-bottom: 10px;
+}
+.block{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: black;
+    color: #fff;
+}
+.carte{
+    width: 350px;
+    height: 400px;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+}
+.carte img{
+    width: 100%;
+    border-radius: 10px;
+}
+ .carte button{
+    padding: 7px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background:orange;
+}
+.carte button:hover{
+    color: orangered;
+    background:black;
+}
+ .prt{
+    height: 700px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+ .ras{
+    height: 400px;
+    width: 350px;
+ }
+ .ras img{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+ }
+ .mum{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: black;
+    color: #fff;
+}
+.nk{
+    width: 350px;
+    height: 400px;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+}
+.nk img{
+    width: 100%;
+    border-radius: 10px;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+   } 
+   form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7px;
+    background-color:#fff;
+    color: #000;
+    box-shadow: 0 0 10px  rgb(0, 234, 255) ;
+    border-radius: 6px;
+   }
+   h3{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 15px;
+    color: #000;
+    text-decoration: underline;
+   }
+
+   .noc{
+    display: flex;
+    justify-content: space-between;
+   }
+  .noc div{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+  }
+  input,label,textarea{
+    margin: 5px;
+    padding: 10px;
+  }
+  input{
+    border: 1px solid rgb(0, 234, 255);
+  }
+  .btn{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;   
+  }
+  .btn1{
+    height: 30%;
+        height: 20%;
+        cursor: pointer;
+        border: none;
+        margin-right: 20px;
+        border-radius: 10px;
+        background: rgb(0, 234, 255);
+        color: #fff;
+  }
+  .btn1:hover{
+    background: black;
+    color: #d94949;
+  }
+  .btn2{
+    height: 30%;
+        height: 20%;
+        cursor: pointer;
+        border: none;
+        margin-left: 20px;
+        border-radius: 10px;
+        background: rgb(0, 234, 255);
+        color: #fff;
+  }
+  .btn2:hover{
+    background: black;
+    color: #d94949;
+  }
+ footer{
+    text-align: center;
+    background:#fff;
+    color: black;
+    padding: 10px;
+}
+
+
